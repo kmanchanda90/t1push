@@ -16,6 +16,12 @@ dict_var = {
     "surname": "manchanda"
 }
 
+dict_var2 = {
+    "name": "karan",
+    "email": "karanmanchanda90@gmail.com",
+    "surname": "manchanda"
+}
+
 db1 = client['mongotest']
 coll = db1['test']
 coll.insert_one(dict_var)
